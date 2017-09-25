@@ -1,6 +1,6 @@
 version: 1
 
-name: saholman-com
+name: ym-saholman-com
 
 environments:
   dev:
