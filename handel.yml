@@ -1,0 +1,13 @@
+version: 1
+
+name: saholman-com
+
+environments:
+  dev:
+    site:
+      type: s3staticsite
+      path_to_code: .
+      index_document: index.html
+      error_document: error.html
+      bucket_name: ym.saholman.com
+# https://handel.readthedocs.io
